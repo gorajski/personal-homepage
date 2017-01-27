@@ -13,3 +13,112 @@
  *= require_tree .
  *= require_self
  */
+
+
+* {
+	background-color: #070707;
+	font-family: 'Archivo Black', sans-serif;
+	font-size: 58px;
+}
+
+table {
+	width: 100%;
+	margin: 0px;
+}
+
+#content {
+  display: inline-block;
+  position: absolute;
+  top: 5%;
+  left: 15%;
+  width: 70%;
+  height: 80%;
+  padding: 0px 40px;
+  /*padding: 50px;*/
+  background-color: #f4f4f4;
+  border: 3px solid #070707;
+  border-radius: 50px;
+
+  color: #070707;
+}
+
+p {
+	background-color: #f4f4f4;
+	margin: 0;
+	padding: 0;
+}
+
+#name-container p {
+	position: absolute;
+	display: inline;
+}
+
+.highlight {
+	background-color: transparent;
+	top: 0px;
+	left: 10px;
+	color: #00ffff;
+	z-index: 0;
+}
+
+.text-content {
+	background-color: transparent;
+	top: 5px;
+	left: 13px;
+	z-index: 1;
+}
+
+.shadow {
+	background-color: transparent;
+	top: 10px;
+	left: 16px;
+	color: #ffff00;
+	z-index: 0;
+}
+
+#ambience {
+	width: 1672px;
+}
+
+.tile {
+  /*margin: 10px auto;*/
+  width: 60px;
+  height: 60px;
+  /*border: 1px solid red;*/
+  margin: 0px;
+  padding: 0px;
+
+  font-size: 14px;
+}
+
+.tile_row > td {
+  padding: 0px;
+}
+
+
+body {
+  /*font-size: 14px;*/
+  /*padding-bottom: 4em;*/
+  margin: 0px;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.cell{
+  /*width: 195px;*/
+  /*height: 195px;*/
+  width: 18px;
+  height: 18px;
+
+  text-align: center;
+  /*font-size: 150px;*/
+  color: #ff8007;
+}
+
+.cells {
+  display: flex;
+  overflow: auto;
+  width: 100%;
+ }
