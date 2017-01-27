@@ -1,0 +1,22 @@
+<div id="content">
+	<div id="name-container">
+		<p class="highlight">Nick Gorajski</p>
+		<p class="text-content">Nick Gorajski</p>
+		<p class="shadow">Nick Gorajski</p>
+	</div>
+	<!-- <p>Web Developer</p> -->
+</div>
+
+<div id="ambience">
+	<table>
+
+	<% 15.times do |row| %>
+		<tr class="tile_row">
+		<% 25.times do |column| %>
+			<td id="board<%= row * 27 + column %>" class="tile"></td>
+		<% end %>
+		</tr>
+	<% end %>
+
+	</table>
+</div>
