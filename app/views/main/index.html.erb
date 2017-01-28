@@ -13,7 +13,7 @@
 	<% 15.times do |row| %>
 		<tr class="tile_row">
 		<% 25.times do |column| %>
-			<td id="board<%= row * 27 + column %>" class="tile"></td>
+			<td id="tile_num_<%= row * 27 + column %>" class="tile"><%= image_tag("tile1.png") %></td>
 		<% end %>
 		</tr>
 	<% end %>
