@@ -31,6 +31,18 @@ table {
 
 td {
   border: none;
+  background-image: url(tile1.png);
+  /*background-repeat: no-repeat;*/
+  background-attachment: fixed;
+  background-position: left top; 
+}
+
+#tile_num_28, #tile_num_56, #tile_num_136 {
+  border: none;
+  background-image: url(tile2.png);
+  /*background-repeat: no-repeat;*/
+  background-attachment: fixed;
+  background-position: left top; 
 }
 
 #content {
@@ -90,8 +102,8 @@ p {
 
 .tile {
   /*margin: 10px auto;*/
-  width: 60px;
-  height: 60px;
+  width: 54px;
+  height: 54px;
   /*border: 1px solid red;*/
   margin: 0px;
   padding: 0px;
