@@ -29,19 +29,17 @@ table {
   margin: 0px;
 }
 
-td {
+.tile {
   border: none;
   background-image: url(tile1.png);
-  /*background-repeat: no-repeat;*/
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-position: left top; 
 }
 
 #tile_num_28, #tile_num_56, #tile_num_136 {
   border: none;
   background-image: url(tile2.png);
-  /*background-repeat: no-repeat;*/
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-position: left top; 
 }
 
@@ -55,7 +53,7 @@ td {
   padding: 0px 40px;
   /*padding: 50px;*/
   background-color: #f4f4f4;
-  border: 3px solid #090909;
+  border: 6px solid #090909;
   border-radius: 50px;
 
   color: #070707;
